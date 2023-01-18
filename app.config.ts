@@ -16,7 +16,7 @@ export default defineAppConfig({
       branch: 'main',
     },
     aside: {
-      level: 0,
+      level: 1,
       exclude: []
     },
     header: {
