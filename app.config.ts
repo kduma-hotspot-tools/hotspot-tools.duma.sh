@@ -1,28 +1,47 @@
 export default defineAppConfig({
   docus: {
-    title: 'Docus',
-    description: 'The best place to start your documentation.',
-    image: 'https://user-images.githubusercontent.com/904724/185365452-87b7ca7b-6030-4813-a2db-5e65c785bf88.png',
+    title: 'HotSpot Tools',
+    description: 'HotSpot Tools by Krystian Duma',
+    url: 'https://hotspot-tools.duma.sh/',
+    // image: '/social-card-preview.png',
     socials: {
-      twitter: 'nuxt_themes',
-      github: 'nuxt-themes/docus',
+      github: 'kduma-hotspot-tools',
+    },
+    github: {
+      root: 'content',
+      edit: true,
+      contributors: true,
+      owner: 'kduma-hotspot-tools',
+      repo: 'hotspot-tools.duma.sh',
+      branch: 'main',
     },
     aside: {
       level: 0,
       exclude: []
     },
     header: {
-      logo: true,
+      logo: false,
       showLinkIcon: true,
       exclude: []
     },
     footer: {
-      iconLinks: [
-        {
-          href: 'https://nuxt.com',
-          icon: 'IconNuxtLabs'
-        }
-      ]
+      credits: {
+        icon: false,
+        text: 'Created by Krystian Duma',
+        href: 'https://krystian.duma.sh',
+      },
+      // iconLinks: [
+      //   {
+      //     label: 'NuxtJS',
+      //     href: 'https://nuxtjs.org',
+      //     icon: 'IconNuxtLabs',
+      //   },
+      //   {
+      //     label: 'Vue Telescope',
+      //     href: 'https://vuetelescope.com',
+      //     icon: 'IconVueTelescope',
+      //   },
+      // ],
     }
   }
 })
