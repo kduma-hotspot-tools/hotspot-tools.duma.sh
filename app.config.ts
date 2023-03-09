@@ -8,9 +8,8 @@ export default defineAppConfig({
       github: 'kduma-hotspot-tools',
     },
     github: {
-      root: 'content',
+      dir: 'content',
       edit: true,
-      contributors: true,
       owner: 'kduma-hotspot-tools',
       repo: 'hotspot-tools.duma.sh',
       branch: 'main',
